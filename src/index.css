@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(90deg, #EEA390 0%, #EB796F 43%, #EB796F 100%);
+}
+
+.button {
+  border: 1px solid #757575;
+  background-color: #FFF;
+  color: #EB796F;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cardbody {
+  padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
